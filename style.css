@@ -18,3 +18,13 @@ nav li a{
 nav li a:hover{
     text-decoration: underline;
 }
+
+main img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main{
+    padding-top: 100px;
+}
