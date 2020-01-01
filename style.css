@@ -28,3 +28,43 @@ main img{
 main{
     padding-top: 100px;
 }
+
+form{
+    padding-top: 20px;
+}
+
+input[type=text] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px 10px 20px;
+    width: 35%;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: #ebebeb;
+    background-color: white;
+  }
+
+input[type=text]:hover{
+    box-shadow: 1px 1px 2px 1px lightgray;
+}
+
+div{
+    padding-top: 20px;
+    width: 20%;
+    margin: auto;
+}
+
+button[type=submit] {
+    width: 130px;
+    height: 40px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+
+button[type=submit]:hover{
+    border-style: solid;
+    color: black;
+    border-width: thin;
+}
