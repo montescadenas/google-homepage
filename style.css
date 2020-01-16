@@ -1,21 +1,21 @@
-nav ul{
+body nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-nav li{
+body nav li{
     float: left;
     font-size: 0.85em;
 }
 
-nav li a{
+body nav li a{
     text-decoration: none;
     color: black;
     padding: 6px;
 }
 
-nav li a:hover{
+body nav li a:hover{
     text-decoration: underline;
 }
 
@@ -67,4 +67,37 @@ button[type=submit]:hover{
     border-style: solid;
     color: black;
     border-width: thin;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    padding-top: 5px;
+    border-top: 1px solid #e4e4e4;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f2f2f2;
+}
+
+footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+footer li{
+    float: left;
+    font-size: 0.85em;
+}
+
+footer li a{
+    text-decoration: none;
+    color: black;
+    padding: 6px;
+}
+
+footer li a:hover{
+    text-decoration: underline;
 }
